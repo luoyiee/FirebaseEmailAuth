@@ -37,18 +37,18 @@ class MainActivity : AppCompatActivity() {
         actionCodeSettings = actionCodeSettings {
             // URL you want to redirect back to. The domain (www.example.com) for this
             // URL must be whitelisted in the Firebase Console.
-//            url = "https://justalk.com/finishSignUp?cartId=1234"
-            url = "https://emailauth-a25c6.firebaseapp.com/finishSignUp?cartId=1234"
+//             url = "https://emailauth-a25c6.firebaseapp.com/finishSignUp?cartId=1234"
+            url = "https://baidu.com/verify"
 
             // This must be true
             handleCodeInApp = true
-            setIOSBundleId("com.example.ios")
+//            setIOSBundleId("com.example.ios")
             setAndroidPackageName(
                 "com.example.emailauth",
                 true, // installIfNotAvailable
                 "12", // minimumVersion
             )
-            linkDomain = "emailauth-a25c6.firebaseapp.com"
+//            linkDomain = "emailauth-a25c6.firebaseapp.com"
         }
 
         verifyEmailButton.setOnClickListener {

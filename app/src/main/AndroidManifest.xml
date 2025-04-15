@@ -34,7 +34,7 @@
 
 <!--                <data-->
 <!--                    android:host="emailauth-a25c6.firebaseapp.com"-->
-<!--                    android:pathPrefix="/__/auth/action"-->
+<!--                    android:pathPrefix="/__/auth/links"-->
 <!--                    android:scheme="https" />-->
 <!--            </intent-filter>-->
             <intent-filter android:autoVerify="true">
@@ -43,7 +43,7 @@
                 <category android:name="android.intent.category.DEFAULT" />
                 <data
                     android:scheme="https"
-                    android:host="emailauth-a25c6.firebaseapp.com"
+                    android:host="baidu.com"
                     android:pathPrefix="/__/auth/links" />
             </intent-filter>
 
